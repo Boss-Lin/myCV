@@ -32,20 +32,20 @@ const experiences = [
     title: 'Java Engineer',
     company: '盛大資訊股份有限公司(台積電專案：PartitionCheck)',
     descriptions: [
-      '內部小組專用的專案，利用CSV列出SQL快速搜尋資料庫並列出報表。',
+      '內部DBA需求專案，利用Excel紀錄需要執行的大量SQL並搜尋資料庫，回傳對方需求格式的Excel。',
       'In-plant employees use dedicated GPTs. Collaborate with another Python engineer to develop the screen.',
     ],
-    tools: ['Git', 'vue3.js', 'Java', 'Springboot', 'oracle'],
+    tools: ['Git', 'Vue3.js', 'Java', 'Springboot', 'Oracle'],
   },
   {
     period: '2024.03 ~ 2025.07',
     title: 'Java Engineer',
     company: '緯創軟體股份有限公司(友達專案：廠內 GPT系統)',
     descriptions: [
-      '廠內員工使用專用的 GPT。與另一名Python工程師合作，負責開發畫面',
+      '以前端工程師身份，協助廠內Python工程師開發專屬於客戶端的GPT，負責開發畫面',
       'In-plant employees use dedicated GPTs. Collaborate with another Python engineer to develop the screen.',
     ],
-    tools: ['Git', 'vue3.js', 'pinia.js', 'chart.js', 'websocket', 'Quasar', 'router'],
+    tools: ['Git', 'Vue3.js', 'Pinia.js', 'Chart.js', 'Websocket', 'Quasar', 'Router'],
   },
   {
     period: '2024.03 ~ 2025.06',
@@ -65,7 +65,7 @@ const experiences = [
       '負責開發一套監控工廠內部狀況的系統，讓管理人員能夠即時監控生產能力。',
       'Responsible for developing a system to monitor the internal conditions of the factory, allowing managers to monitor production capacity in real time.',
     ],
-    tools: ['Java', 'Springboot', 'Git', 'oracle', 'MSSQL', 'vue3.js', 'pinia.js', 'chart.js', 'websocket'],
+    tools: ['Java', 'Springboot', 'Git', 'Oracle', 'MSSQL', 'Vue3.js', 'Pinia.js', 'Chart.js', 'Websocket'],
   },
   {
     period: '2023.08 ~ 2023.11',
@@ -75,7 +75,7 @@ const experiences = [
       '依照客戶需求，整合所有設備商設備並進行自動化測試。',
       "Integrate all equipment vendors' equipment and conduct automated testing according to customer needs.",
     ],
-    tools: ['Python', 'Git', 'selenium'],
+    tools: ['Python', 'Git', 'Selenium'],
   },
   {
     period: '2022.04 ~ 2023.08',
@@ -105,7 +105,7 @@ const experiences = [
       '依照客戶需求，完成相關維護及開發。',
       'Maintain and operate client web pages and develop functions required by customers.',
     ],
-    tools: ['PHP', 'HTML', 'CSS', 'Laravel MVC', 'MySQL', 'PostgreSQL', 'docker', 'Git'],
+    tools: ['PHP', 'HTML', 'CSS', 'Laravel MVC', 'MySQL', 'PostgreSQL', 'Docker', 'Git'],
   },
   {
     period: '2021.01 ~ 2021.05',
