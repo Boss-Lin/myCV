@@ -4,6 +4,7 @@ import HomeSection from './components/HomeSection.vue'
 import SkillSection from './components/SkillSection.vue'
 import ExperienceSection from './components/ExperienceSection.vue'
 import ScrollTop from './components/ScrollTop.vue'
+import CVPrint from './components/CVPrint.vue'
 </script>
 
 <template>
@@ -12,4 +13,5 @@ import ScrollTop from './components/ScrollTop.vue'
   <SkillSection />
   <ExperienceSection />
   <ScrollTop />
+  <CVPrint />
 </template>

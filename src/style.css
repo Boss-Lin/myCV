@@ -158,6 +158,13 @@ header .navbar ul li a:hover {
   padding: 0 15rem;
 }
 
+.home-buttons {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
 .home h3 {
   font-size: 2.5rem;
   color: #fff;
@@ -349,5 +356,20 @@ header .navbar ul li a:hover {
 
   .experience .box-container .box {
     width: 100%;
+  }
+}
+
+@page {
+  size: A4;
+  margin: 0;
+}
+
+@media print {
+  header, #menu, .top, .home, .skill, .experience {
+    display: none !important;
+  }
+
+  body {
+    padding: 0;
   }
 }
